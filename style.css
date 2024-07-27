@@ -78,4 +78,44 @@ html, body {
   border: none;
   border-radius: 15px;
   color:#f2ede7;
+  font-weight: bold;
+}
+
+.news {
+  text-align: center;
+  background-color: #83181b;
+}
+
+.reports {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-bottom: 5em;
+  flex: 1;
+
+}
+.report_image {
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 15px;
+  border: 5px solid #a8815d;
+  
+}
+
+.item {
+  max-width: 250px;
+}
+
+.news_title {
+   color: #f2ede7;
+   font-family: 'Bebas Neue', sans-serif;
+   font-size: 22px;
+   margin: 2em;
+   font-weight: 900;
+}
+
+.caption {
+  margin-top: 6px;
+  color:#f2ede7;
 }
