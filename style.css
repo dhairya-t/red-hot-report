@@ -152,4 +152,33 @@ html, body {
 .section_04 {
   display: flex;
   justify-content: center;
+  background-color: #83181b;
 }
+ .content_04 {
+  display: flex;
+  gap: 8em;
+  align-content: center;
+  margin: 5em 7em;
+  padding: 3em 5em;
+  background-color: #f2ede7;
+  border-radius: 15px;
+  border: 5px solid #a8815d
+ }
+
+ .text_04 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+ }
+
+ .header_04 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 23px;
+  font-weight: bolder;
+  color: #83181b;
+ }
+
+ .subtext_04 {
+  font-family: light italic;
+  font-size: 17px;
+ }
