@@ -119,3 +119,29 @@ html, body {
   margin-top: 6px;
   color:#f2ede7;
 }
+
+.quote {
+  background-color: #f2ede7;
+  padding: 6em;
+  display: flex;
+  justify-content: center;
+
+}
+
+.quote_text_author {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+}
+
+.author {
+  margin-left: auto;
+  font-family: light italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.quote_text {
+  font-size: 36px;
+  font-family: light italic;
+}
