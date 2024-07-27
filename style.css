@@ -148,3 +148,8 @@ html, body {
   font-size: 36px;
   font-family: light italic;
 }
+
+.section_04 {
+  display: flex;
+  justify-content: center;
+}
