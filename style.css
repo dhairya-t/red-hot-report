@@ -132,6 +132,9 @@ html, body {
   max-width: 900px;
   display: flex;
   flex-direction: column;
+  border: 5px solid #a8815d;
+  padding: 44px;
+
 }
 
 .author {
