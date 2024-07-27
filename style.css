@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Lato', sans-serif;
 }
 
 .nav {
@@ -30,9 +31,10 @@ a {
   }
 
   .header {
-    padding-bottom: 9em;
-    padding-left: 9em;
-    padding-right: 9em;
+    padding-bottom: 6em;
+    padding-left: 12em;
+    padding-right: 12em;
+    background-color: #f2ede7;
     
   }
 
@@ -43,7 +45,37 @@ a {
     gap: 3em;
   }
 .jimmy {
-    width: 450px;
+    width: 420px;
     height: auto;
+    border: 5px solid #a8815d;
+    margin-left: 90px;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.title {
+  font-family: 'Bebas Neue', sans-serif;
+  padding: 0px;
+  margin: 5px;
+  color: #83181b;
+  margin-left: 0px;
+  
+}
+
+.subtext {
+  padding: 0px;
+  margin-bottom: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+.sign_up {
+  padding: 12px 30px;
+  background-color: #a8815d;
+  border: none;
+  border-radius: 15px;
+  color:#f2ede7;
+}
